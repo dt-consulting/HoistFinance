@@ -1,0 +1,83 @@
+.row {
+  display: flex;
+}
+.col {
+  flex-grow: 1;
+}
+
+#wrapper {
+  margin: 50px auto;
+}
+@media only screen and (min-width: 640px) {
+  #wrapper { 
+    width: 50%;
+  } 
+}
+.noUi-tooltip {
+  display: none;
+}
+.noUi-active .noUi-tooltip {
+  display: block;
+}
+.noUi-warning {
+  background-color: #ff0000;
+}
+.slider {
+  margin: 10px auto 40px;
+}
+.noUi-pips .noUi-value-horizontal {
+  margin-top: 5px;
+}
+.noUi-pips .noUi-marker-horizontal.noUi-marker-large {
+    height: 10px;
+}
+@media only screen and (min-width: 640px) {
+  #youPay .noUi-pips .noUi-value-horizontal {
+    width: 100px;
+  }
+}
+.currency-symbol {
+  position:relative;
+  margin-right:-10px
+}
+.currency {
+  padding-left:10px;
+  text-align:left;
+  width: 50px;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+.control {
+    display: inline-block;
+    background-color: #f7f7f7;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#f7f7f7),to(#e7e7e7));
+    background-image: -webkit-linear-gradient(top,#f7f7f7,#e7e7e7);
+    background-image: -moz-linear-gradient(top,#f7f7f7,#e7e7e7);
+    background-image: -ms-linear-gradient(top,#f7f7f7,#e7e7e7);
+    background-image: -o-linear-gradient(top,#f7f7f7,#e7e7e7);
+    color: #a7a7a7;
+    font-size: 20px;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50%;
+    box-shadow: 0 3px 8px #aaa, inset 0 2px 3px #fff;
+    cursor: pointer;
+    outline: 0;
+}
+.control.minus {
+    margin: 25px 20px 10px 0px;
+}
+.control.plus {
+    margin: 25px 0px 10px 20px;
+}
