@@ -1,0 +1,4 @@
+https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.2/nouislider.min.js
+https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.5.0/papaparse.js
+
+https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.2/nouislider.min.css

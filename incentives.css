@@ -1,3 +1,8 @@
+input:read-only {
+  background-color: #ddd;
+  color: #666;
+}
+
 .row {
   display: flex;
 }
@@ -6,7 +11,7 @@
 }
 
 #wrapper {
-  margin: 50px auto;
+  margin: 50px auto 0;
 }
 @media only screen and (min-width: 640px) {
   #wrapper { 
@@ -25,14 +30,17 @@
 .slider {
   margin: 10px auto 40px;
 }
-.noUi-pips .noUi-value-horizontal {
+.noUi-pips .noUi-value {
   margin-top: 5px;
 }
-.noUi-pips .noUi-marker-horizontal.noUi-marker-large {
+.noUi-pips .noUi-marker.noUi-marker-large {
     height: 10px;
 }
+#youPay .noUi-pips .noUi-value {
+  cursor: pointer;
+}
 @media only screen and (min-width: 640px) {
-  #youPay .noUi-pips .noUi-value-horizontal {
+  #youPay .noUi-pips .noUi-value {
     width: 100px;
   }
 }
@@ -43,6 +51,11 @@
 .currency {
   padding-left:10px;
   text-align:left;
+}
+#balance {
+  width: 80px;
+}
+#disposable {
   width: 50px;
 }
 .noselect {
